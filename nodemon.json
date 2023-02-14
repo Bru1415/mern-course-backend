@@ -1,9 +1,0 @@
-{
-    "env": {
-       "DB_USER": "BruMern",
-       "DB_PASSWORD": "A6GBbzRGo6IWTWut",
-       "DB_NAME": "mern",
-       "GOOGLE_API_KEY": "...",
-       "JWT_KEY": "merncourse_secret_matter" 
-    }
-}
