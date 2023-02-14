@@ -55,7 +55,7 @@ mongoose
   )
   // mongodb+srv://BruMern:<password>@cluster0.72zmi4o.mongodb.net/?retryWrites=true&w=majority
   .then(() => {
-    app.listen(`0.0.0.0:${process.env.PORT}`);
+    app.listen(`0.0.0.0:${process.env.PORT}` || 5000);
   })
   .catch((err) => {
     console.log(err);
